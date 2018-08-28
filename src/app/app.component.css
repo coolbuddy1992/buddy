@@ -1,0 +1,24 @@
+.panel-primary>.panel-heading{
+	background-color: orange;
+	border-color:orange;
+    
+}
+
+.home[_ngcontent-c0] {
+    color: black;
+    float: left;
+}
+
+.new{
+   margin-left: 22em; 
+}
+
+.newline{
+    margin-left: 4em; 
+ }
+
+ .logo{
+  float:left;
+  margin-bottom: 2em;
+
+ }

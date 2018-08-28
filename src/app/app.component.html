@@ -1,0 +1,31 @@
+
+<!--The content below is only a placeholder and can be replaced.-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<div style="text-align:center">
+
+  <div class="container">
+    <div class="panel panel-primary">
+      <div class="panel-heading heading">
+        <span><img src="https://www.mallmaverick.com/system/stores/store_fronts/000/022/576/original/home.png?1452747302" width="30" height="30" class="logo"></span>
+        {{title}}
+     
+        <i class="fa fa-user pull-right" aria-hidden="true"></i>
+      </div>
+      <div class="panel-body">
+        <div style="margin-bottom: 50px;">
+          <span class="home"><a routerLink="/home">Home</a></span>
+          <span class="newlink"><a routerLink="/auto-allocator">Auto Allocator</a></span>
+          <span class="new"><a routerLink="/abg">Algo BaseLine</a></span>
+          <span class="loginlink"><a routerLink="/loginlink">Login</a></span>
+          <div class="dropdown">
+            <span class="dropbtn">Welcome User</span>
+            <div class="dropdown-content">
+              <a href="#">Logout</a>
+            </div>
+          </div>
+        </div>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>

@@ -30,9 +30,14 @@ span.loginlink {
 	margin-left: 30em;
 }
 
+
+
 .adplan{
 	color: 4em;
 }
+
+.container {
+    width: 100%;}
 
 .notification{
     margin-left: 72em !important;

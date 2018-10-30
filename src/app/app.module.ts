@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AutoallocatorComponent } from './autoallocator/autoallocator.component';
 import { HomeComponentComponent } from './home-component/home-component.component';
 import { AbgComponent } from './abg/abg.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 const routes: Routes = [
@@ -21,6 +22,7 @@ const routes: Routes = [
     AutoallocatorComponent,
     HomeComponentComponent,
     AbgComponent,
+    NavbarComponent,
     
 
   ],
